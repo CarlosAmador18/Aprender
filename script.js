@@ -34,3 +34,8 @@ let pruebas = document.getElementById("pruebas");
 // pruebas.addEventListener("click", () => {
 //     alert([1,2,3,4,5,6,7,8,9,10].some(x => x % 2 == 0))
 // }) // Resultado true por que algun numero es par
+
+// reduce : Recorre el array y devuelve un valor
+// pruebas.addEventListener("click", () => {
+// alert([1,2,3,4,5,6,7,8,9,10].reduce((acc, cur) => acc + cur))
+// }) // Resultado 55
